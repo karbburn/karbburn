@@ -1,87 +1,90 @@
-<h1 align="center">Hi, I'm Sourabh 👋</h1>
+<div align="center">
 
-<p align="center">
-Building quantitative finance tools, AI systems, and data products.
-</p>
+# Sourabh Pradhan
 
-<p align="center">
-  <a href="https://sourabh08.vercel.app/">Portfolio</a>
-  •
-  <a href="https://github.com/karbburn">GitHub</a>
-  •
-  <a href="https://linkedin.com/in/sourabh-pradhan07">LinkedIn</a>
-  •
-  <a href="mailto:karbburn@gmail.com">Email</a>
-</p>
+### Building software for quantitative finance, AI, and data-intensive applications.
+
+<a href="https://sourabh08.vercel.app/">Portfolio</a>
+•
+<a href="https://linkedin.com/in/sourabh-pradhan07">LinkedIn</a>
+•
+<a href="mailto:karbburn@gmail.com">Email</a>
+
+</div>
 
 ---
 
-## About Me
+## What I'm Building
 
-- 🧠 Currently exploring **Quantitative Finance** and **AI Systems**
-- 🎓 IPM Student at **IIM Bodh Gaya**
-- ⚡ I enjoy building products that combine finance, data, and software engineering.
+I'm an IPM student at **IIM Bodh Gaya** building software at the intersection of **quantitative finance, AI, and data engineering**.
+
+Currently exploring:
+
+- Quantitative Finance
+- AI Systems
+- Financial Analytics
+- Data Visualization
 
 ---
 
 ## Featured Projects
 
-### 📈 [BondFactor](https://bondfactor.vercel.app/)
-Interactive simulator for Indian Government Securities that models benchmark yield curves and analyzes scenario-based deformations including parallel shifts, steepeners, flatteners, twists, and butterflies.
+### 📈 [BondFactor](https://bondfactor.vercel.app)
 
-### 📊 [CorrShift](https://corrshift.vercel.app/)
-Financial market correlation anomaly detector that tracks rolling relationships across multiple assets and identifies structural shifts.
+Interactive yield curve simulator for Indian Government Securities.
 
-### 📉 [Factor Exposure Analyzer](https://factor-analyzer.vercel.app/)
-Portfolio analytics platform that estimates market, value, momentum, size, and volatility exposures using rolling regression models.
+Model benchmark curves and analyze **parallel shifts, twists, steepeners, flatteners, and butterfly scenarios**.
 
-### 💊 [DistrictDx](https://districtdx.vercel.app/)
-District-level pharmaceutical market attractiveness framework covering **785 districts across India** using statistical scoring and data-driven ranking.
+**Tech:** Python • Next.js • Quantitative Finance
+
+**Repository:** https://github.com/karbburn/BondFactor
 
 ---
 
-## Tech Stack
+### 📊 [CorrShift](https://corrshift.vercel.app)
 
-### Languages
+Detect structural shifts in rolling correlations across financial markets using statistical analysis and interactive visualizations.
 
-<p>
-<img src="https://skillicons.dev/icons?i=python,ts,js,dart,sql" />
-</p>
+**Tech:** Python • FastAPI • Next.js • Pandas
 
-### Frameworks & Libraries
-
-<p>
-<img src="https://skillicons.dev/icons?i=nextjs,fastapi,flutter,react,nodejs" />
-</p>
-
-### Tools
-
-<p>
-<img src="https://skillicons.dev/icons?i=git,docker,postgres,supabase,vercel,github,vscode" />
-</p>
-
-### Data & Analytics
-
-- Pandas
-- NumPy
-- Statsmodels
-- Scikit-learn
-- D3.js
+**Repository:** https://github.com/karbburn/correlations-anomaly-detector
 
 ---
 
-## GitHub Stats
+### 📉 [Factor Exposure Analyzer](https://factor-analyzer.vercel.app)
+
+Estimate portfolio exposure to **Market, Value, Momentum, Size, and Volatility** using rolling factor regressions.
+
+**Tech:** Python • FastAPI • Statsmodels
+
+**Repository:** https://github.com/karbburn/Factor-Exposure-Analyzer
+
+---
+
+### 💊 [DistrictDx](https://districtdx.vercel.app)
+
+District-level pharmaceutical market attractiveness model covering **785 Indian districts**, developed for **Trilytics 2026 (IIM Calcutta PGDBA Conclave).**
+
+**Tech:** Next.js • Python • Data Analytics
+
+**Repository:** https://github.com/karbburn/DistrictDx
+
+---
+
+## Technologies
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=karbburn&theme=transparent" alt="GitHub Streak" />
+  <img src="https://skillicons.dev/icons?i=python,ts,js,nextjs,fastapi,react,flutter,postgres,supabase,docker,git,github,vercel,vscode" />
 </p>
 
 ---
 
-## Connect
+## Let's Connect
 
-🌐 **Portfolio:** https://sourabh08.vercel.app/
+If you'd like to discuss quantitative finance, AI, or building interesting software, feel free to reach out.
+
+📧 **karbburn@gmail.com**
+
+🌐 **Portfolio:** https://sourabh08.vercel.app
 
 💼 **LinkedIn:** https://linkedin.com/in/sourabh-pradhan07
-
-📧 **Email:** karbburn@gmail.com
