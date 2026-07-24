@@ -3,9 +3,9 @@
 
 # Hey, I'm Sourabh 👋
 
-### I build things that help people explore markets, data, and ideas.
+### I build analytical software that makes markets, data, and ideas easier to explore.
 
-Currently wandering somewhere between **quantitative finance**, **AI**, and **full-stack product engineering**.
+I'm currently pursuing **IPM at IIM Bodh Gaya**, and you'll usually find me building products around **quantitative finance**, **AI**, and **data visualization**.
 
 <p>
 <a href="https://sourabh08.vercel.app">Portfolio</a>
@@ -21,25 +21,19 @@ Currently wandering somewhere between **quantitative finance**, **AI**, and **fu
 
 ## Why I Build
 
-I enjoy taking concepts that usually live inside research papers, spreadsheets, or trading terminals and turning them into products people can actually interact with.
+I enjoy taking ideas that usually live inside research papers, spreadsheets, or trading terminals and turning them into products people can actually interact with.
 
-Sometimes that's a yield curve simulator.
-
-Sometimes it's a macroeconomic event study.
-
-Sometimes it's just me disappearing down a rabbit hole because a question sounded interesting.
+Some projects begin with a simple question. Others start because I wanted to understand something better. Either way, I enjoy building tools that make complex systems feel approachable.
 
 ---
 
-# 🚀 Featured Work
+# 🚀 Things I've Been Building
 
 ## 📈 BondFactor
 
 > **Bend the yield curve.**
 
-An interactive playground for Indian Government Securities.
-
-Explore parallel shifts, twists, steepeners, flatteners, and butterfly scenarios without opening a textbook.
+An interactive playground for Indian Government Securities, letting users explore yield curve scenarios like parallel shifts, twists, steepeners, flatteners, and butterflies.
 
 🌐 **Live:** https://bondfactor.vercel.app
 
@@ -51,9 +45,7 @@ Explore parallel shifts, twists, steepeners, flatteners, and butterfly scenarios
 
 > **After the announcement comes the reaction.**
 
-Bloomberg-inspired macro event analysis for Indian markets.
-
-Visualize how RBI decisions, CPI releases, and IIP prints ripple through markets.
+A Bloomberg-inspired platform for analyzing how RBI decisions, CPI releases, and other macroeconomic events ripple through Indian financial markets.
 
 🌐 **Live:** https://macropulse-in.vercel.app
 
@@ -65,7 +57,7 @@ Visualize how RBI decisions, CPI releases, and IIP prints ripple through markets
 
 > **Markets whisper before they shout.**
 
-Track how relationships between financial assets evolve over time and detect structural shifts before they're obvious.
+Tracks changing relationships between financial assets to uncover structural shifts before they become obvious.
 
 🌐 **Live:** https://corrshift.vercel.app
 
@@ -81,15 +73,15 @@ Estimate portfolio exposure to Market, Value, Momentum, Size, and Volatility usi
 
 🌐 **Live:** https://factor-analyzer.vercel.app
 
-📂 **Code:** https://github.com/karbburn/BondFactor
+📂 **Code:** https://github.com/karbburn/factor-exposure-analyzer
 
 ---
 
-## 💡 A Few Other Things
+## 💡 Other Projects
 
-- 💊 DistrictDx — Pharmaceutical market analytics across **785 Indian districts**
-- 📱 ClassWidget — Android home-screen timetable widget built with Flutter
-- 🤖 AI-powered automations, internal tools, and whatever I'm currently obsessed with
+- 💊 **DistrictDx** — Pharmaceutical market attractiveness analysis across **785 Indian districts**
+- 📱 **ClassWidget** — Android home-screen timetable widget built with Flutter
+- 🤖 AI automations, developer tools, and small experiments that solve everyday problems
 
 ---
 
@@ -99,7 +91,7 @@ Estimate portfolio exposure to Market, Value, Momentum, Size, and Volatility usi
 <img src="https://skillicons.dev/icons?i=python,ts,nextjs,react,fastapi,flutter,postgres,supabase,docker,git,github,vercel,vscode"/>
 </p>
 
-You'll also find me working with **Pandas**, **NumPy**, **Statsmodels**, **Scikit-learn**, **D3.js**, and occasionally wondering why a bug disappeared the moment I added a `print()` statement.
+I also spend a lot of time working with **Pandas**, **NumPy**, **Statsmodels**, **Scikit-learn**, and occasionally wondering why a bug disappears the moment I add a `print()` statement.
 
 ---
 
@@ -107,21 +99,21 @@ You'll also find me working with **Pandas**, **NumPy**, **Statsmodels**, **Sciki
 
 - Fixed-income analytics
 - Market microstructure
-- AI agents that actually save time
+- AI agents that genuinely save time
 - Data visualization that tells a story
 - Building products people enjoy using
 
 ---
 
-## Outside GitHub
+# 🌙 Beyond the Keyboard
 
-I spend an unhealthy amount of time thinking about product design, polishing tiny UI details, reading about markets, and convincing myself that "one more feature" won't take that long.
+Outside of code, I enjoy learning about markets, refining product details, lifting at the gym, and occasionally disappearing into rabbit holes that become side projects. Most of them start with "this should only take one night." They rarely do.
 
 ---
 
 <div align="center">
 
-**If something here catches your eye, let's talk.**
+**If something here catches your eye, I'd love to connect.**
 
 <a href="https://sourabh08.vercel.app">Portfolio</a>
 •
@@ -130,4 +122,4 @@ I spend an unhealthy amount of time thinking about product design, polishing tin
 <a href="mailto:karbburn@gmail.com">Email</a>
 
 </div>
-```
+
