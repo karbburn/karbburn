@@ -8,7 +8,7 @@
 I'm currently pursuing **IPM at IIM Bodh Gaya**, and you'll usually find me building products around **quantitative finance**, **AI**, and **data visualization**.
 
 <p>
-<a href="https://sourabh08.vercel.app">Portfolio</a>
+<a href="https://www.sourabhpradhan.in/">Portfolio</a>
 •
 <a href="https://linkedin.com/in/sourabh-pradhan07">LinkedIn</a>
 •
@@ -73,7 +73,7 @@ Estimate portfolio exposure to Market, Value, Momentum, Size, and Volatility usi
 
 🌐 **Live:** https://factor-analyzer.vercel.app
 
-📂 **Code:** https://github.com/karbburn/factor-exposure-analyzer
+📂 **Code:** https://github.com/karbburn/factor-exposure-api
 
 ---
 
@@ -115,7 +115,7 @@ Outside of code, I enjoy learning about markets, refining product details, lifti
 
 **If something here catches your eye, I'd love to connect.**
 
-<a href="https://sourabh08.vercel.app">Portfolio</a>
+<a href="https://www.sourabhpradhan.in/">Portfolio</a>
 •
 <a href="https://linkedin.com/in/sourabh-pradhan07">LinkedIn</a>
 •
