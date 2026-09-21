@@ -35,7 +35,7 @@ Some projects begin with a simple question. Others start because I wanted to und
 
 An interactive playground for Indian Government Securities, letting users explore yield curve scenarios like parallel shifts, twists, steepeners, flatteners, and butterflies.
 
-🌐 **Live:** https://bondfactor.vercel.app
+🌐 **Live:** https://bondfactor.sourabhpradhan.in
 
 📂 **Code:** https://github.com/karbburn/BondFactor
 
@@ -47,7 +47,7 @@ An interactive playground for Indian Government Securities, letting users explor
 
 A Bloomberg-inspired platform for analyzing how RBI decisions, CPI releases, and other macroeconomic events ripple through Indian financial markets.
 
-🌐 **Live:** https://macropulse-in.vercel.app
+🌐 **Live:** https://macropulse.sourabhpradhan.in
 
 📂 **Code:** https://github.com/karbburn/macropulse-in
 
@@ -59,7 +59,7 @@ A Bloomberg-inspired platform for analyzing how RBI decisions, CPI releases, and
 
 Tracks changing relationships between financial assets to uncover structural shifts before they become obvious.
 
-🌐 **Live:** https://corrshift.vercel.app
+🌐 **Live:** https://corrshift.sourabhpradhan.in
 
 📂 **Code:** https://github.com/karbburn/correlations-anomaly-detector
 
@@ -71,7 +71,7 @@ Tracks changing relationships between financial assets to uncover structural shi
 
 Estimate portfolio exposure to Market, Value, Momentum, Size, and Volatility using rolling factor regressions.
 
-🌐 **Live:** https://factor-analyzer.vercel.app
+🌐 **Live:** https://factor-analyzer.sourabhpradhan.in
 
 📂 **Code:** https://github.com/karbburn/factor-exposure-api
 
