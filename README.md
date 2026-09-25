@@ -2,11 +2,11 @@
 
 # Hey, I'm Sourabh 👋
 
-### I build things to understand them.
+### I build analytical software that makes markets, data, and ideas easier to explore.
 
-I'm an **IPM student at IIM Bodh Gaya** building around **quantitative finance, financial modelling, markets, research, and software**.
+I'm an **IPM student at IIM Bodh Gaya** building around **quantitative finance, financial modelling, markets, and data**.
 
-I like taking something that looks complicated on paper, understanding the machinery underneath it, and turning it into software that makes the idea easier to explore.
+I enjoy taking ideas that usually live inside research papers, spreadsheets, or trading terminals and turning them into systems people can actually interact with.
 
 <p>
 <a href="https://www.sourabhpradhan.in/">Portfolio</a>
@@ -22,25 +22,23 @@ I like taking something that looks complicated on paper, understanding the machi
 
 ---
 
-## What I Build
+## Why I Build
 
-Most of my work sits somewhere between **mathematics, finance, research, and software engineering**.
+Most of my projects start with a question.
 
-I'm particularly interested in:
+How should an option be priced?  
+What happens when the yield curve moves?  
+What is actually driving a stock?  
+How does a macroeconomic event transmit through markets?  
+What does a real transaction model look like?
 
-- **Quantitative finance**: options, volatility, fixed income, factor models, valuation
-- **Financial modelling**: DCFs, transaction models, forecasting, scenario analysis
-- **Research software**: turning datasets and statistical methods into usable tools
-- **Market systems**: understanding how assets, factors, rates, and macro events interact
-- **Applied software**: building the APIs, data pipelines, engines, dashboards, and infrastructure around the analysis
+I like going underneath the interface, understanding the mathematics and assumptions, building the engine, and then making the result explorable.
 
-A recurring principle across my projects:
-
-> **Understand the model. Implement the machinery. Make the result explorable.**
+> **Understand the model. Build the machinery. Make the result explorable.**
 
 ---
 
-# 🚀 Selected Projects
+# 🚀 Things I've Been Building
 
 ## 💼 Accord
 
@@ -48,17 +46,14 @@ A recurring principle across my projects:
 
 [Live](https://accord.sourabhpradhan.in)
 
-An India-focused transaction modelling platform connecting the workflow from company analysis and valuation to deal structure, financing, synergies, pro forma statements, and EPS accretion.
+An India-focused transaction modelling platform connecting company analysis, valuation, deal structure, financing, synergies, pro forma statements, and EPS accretion in one connected model.
 
-- Driver-based financial forecasting
-- DCF, WACC/CAPM, and trading comparables
-- Transaction structure and Sources & Uses
-- Debt financing and purchase price allocation
-- Synergy modelling and phasing
-- Three-statement pro forma analysis
-- EPS accretion / dilution
-- Scenario analysis and full-model sensitivities
-- Deal-specific valuation and financing solvers
+- Driver-based forecasting and DCF valuation
+- WACC/CAPM and trading comparables
+- Sources & Uses, debt financing, purchase price allocation
+- Synergy modelling and three-statement pro forma analysis
+- EPS accretion / dilution and credit metrics
+- Scenario analysis, sensitivities, and deal-specific solvers
 - Calculation lineage and model diagnostics
 
 **Stack:** Python · FastAPI · Next.js · TypeScript · PostgreSQL · Supabase
@@ -71,20 +66,16 @@ An India-focused transaction modelling platform connecting the workflow from com
 
 [Live](https://valence.sourabhpradhan.in)
 
-A financial modelling platform connecting financial data, forecasting, assumptions, valuation, accounting checks, and model outputs.
+A financial modelling platform connecting data ingestion, normalization, forecasting, valuation, accounting QA, and Excel model generation.
 
-- Multi-source financial data ingestion
-- Driver-based 5-year forecasting
+- Driver-based 5-year three-statement forecasts
 - Base, Bull, and Bear scenarios
-- CAPM-based WACC
-- FCFF DCF with multiple terminal value methods
-- Reverse DCF growth solver
-- Public trading comparables
-- Football-field valuation
+- CAPM-based WACC and FCFF DCF
+- Reverse DCF and valuation sensitivities
+- Public comps and football-field valuation
 - PE exit returns and IRR waterfall
 - Automated accounting and model QA
-- Dynamic 30-tab Excel model generation
-- Real-time web modelling dashboard
+- Dynamic 30-tab Excel model exporter
 
 **Stack:** Python · FastAPI · Pydantic · OpenPyXL · SQLite · Next.js · React · TypeScript
 
@@ -100,15 +91,12 @@ What started as a Monte Carlo vs Black-Scholes comparison grew into a broader op
 
 - Black-Scholes-Merton pricing and Greeks
 - Five Monte Carlo estimators
-- Variance reduction techniques
-- Implied volatility solvers
-- P&L attribution across risk factors
-- Multi-leg strategy analysis
+- Implied volatility solving
+- P&L attribution and multi-leg strategies
 - Scenario stress testing
-- Heston stochastic volatility and calibration
+- Heston calibration and stochastic volatility
 - SVI volatility surface fitting
-- Model validation
-- Black-Scholes vs Heston delta-hedging comparison
+- Delta-hedging and model comparisons
 
 **Stack:** Python · FastAPI · NumPy · SciPy · Next.js · TypeScript · Tailwind · Recharts
 
@@ -116,21 +104,18 @@ What started as a Monte Carlo vs Black-Scholes comparison grew into a broader op
 
 ## 📈 BondFactor
 
-**Fixed-income risk analytics for Indian Government Securities**
+**Fixed-income analytics for Indian Government Securities**
 
 [Live](https://bondfactor.sourabhpradhan.in) · [Source](https://github.com/karbburn/BondFactor)
 
-A fixed-income analytics platform for fitting yield curves, measuring bond risk, and studying portfolio behaviour under curve scenarios.
+An interactive fixed-income platform for fitting the yield curve, measuring risk, and studying portfolio behaviour under curve scenarios.
 
 - Nelson-Siegel-Svensson yield-curve fitting
 - Zero-coupon bootstrapping
-- Parallel shift scenarios
-- Steepener / flattener
-- Twist and butterfly shocks
+- Parallel shifts, steepeners, flatteners, twists, and butterflies
 - Duration and convexity
-- DV01
-- Key Rate Duration
-- Portfolio-level scenario P&L
+- DV01 and Key Rate Duration
+- Portfolio scenario P&L
 
 **Stack:** Python · FastAPI · SciPy · Next.js · TypeScript · Supabase
 
@@ -142,13 +127,11 @@ A fixed-income analytics platform for fitting yield curves, measuring bond risk,
 
 [Live](https://macropulse.sourabhpradhan.in) · [Source](https://github.com/karbburn/macropulse-in)
 
-A research platform for studying how Indian financial markets behave around major macroeconomic events.
-
-Tracks:
+A research platform for studying market behaviour around major Indian macroeconomic events.
 
 **RBI MPC · CPI · IIP · NIFTY 50 · USD/INR · India VIX · 10Y G-Sec**
 
-Combines event windows, surprise analysis, market reactions, and research-oriented visualisation.
+Combines event windows, surprise analysis, market reactions, and interactive visualisation.
 
 **Stack:** Python · FastAPI · Next.js · Supabase · Recharts
 
@@ -158,11 +141,11 @@ Combines event windows, surprise analysis, market reactions, and research-orient
 
 **Pharmaceutical market attractiveness across India**
 
-[Source](https://github.com/karbburn/DistrictDx)
+[Live](https://districtdx.sourabhpradhan.in) · [Source](https://github.com/karbburn/DistrictDx)
 
-A district-level framework for evaluating pharmaceutical market attractiveness across **all 785 Indian districts**.
+A statistical framework covering **all 785 Indian districts**, combining demographic, health, economic, and geospatial data to evaluate pharmaceutical market attractiveness.
 
-Combines demographic, health, economic, and geospatial data to construct market attractiveness measures and distinguish present conditions from future potential.
+Produces district-level **Overall, Chronic, and Acute** indices with current-state and future-trajectory views.
 
 **Stack:** Python · Pandas · SciPy · Next.js · D3.js · Tailwind CSS
 
@@ -170,31 +153,34 @@ Combines demographic, health, economic, and geospatial data to construct market 
 
 ## 📉 Factor Exposure Analyzer
 
-**What is actually driving a stock?**
+**What's really driving your returns?**
 
 [Live](https://factor-analyzer.sourabhpradhan.in) · [Source](https://github.com/karbburn/factor-exposure-api)
 
 Rolling factor regressions across the **NIFTY 500**.
 
-Measures exposure to:
-
 **Market · Value · Momentum · Size · Volatility**
 
-The computationally heavy analysis is pre-computed through GitHub Actions and served through a FastAPI backend for fast interactive exploration.
+The heavy analysis is pre-computed through GitHub Actions and served through a FastAPI backend for interactive exploration.
 
-**Stack:** Python · Pandas · Statsmodels · Scikit-learn · FastAPI · Next.js · Supabase · GitHub Actions
+**Stack:** Python · Pandas · Statsmodels · Scikit-learn · FastAPI · Next.js · Supabase
 
 ---
 
 ## 📉 NIFTY Gap Lab
 
-**From market observations to a testable options strategy**
+**From weekday gap probabilities to an options strategy**
 
-[Source](https://github.com/karbburn/NIFTY-Gap-Lab)
+[Live](https://nifty-opt-sim.onrender.com) · [Source](https://github.com/karbburn/nifty-option-simulator)
 
-A research project studying NIFTY 50 opening gaps by weekday, mapping those observations into an ATM options strategy, and testing the result through historical backtesting.
+A research and backtesting tool studying weekday-to-weekday NIFTY 50 gaps and turning those probabilities into systematic CE/PE trade rules.
 
-The emphasis is on explicit assumptions, transparent methodology, and clearly stated limitations.
+- Weekday-pair gap probability analysis
+- Wilson confidence intervals and sample guards
+- Black-Scholes option pricing
+- GTT-style premium exit ladder
+- In-sample vs out-of-sample diagnostics
+- Interactive trade and equity-curve dashboard
 
 **Stack:** Python · FastAPI · Black-Scholes · yfinance · Chart.js
 
@@ -206,11 +192,11 @@ The emphasis is on explicit assumptions, transparent methodology, and clearly st
 
 [Live](https://corrshift.sourabhpradhan.in) · [Source](https://github.com/karbburn/correlations-anomaly-detector)
 
-Rolling correlation and anomaly detection across:
+Tracks rolling relationships across:
 
 **NIFTY 50 · USD/INR · Gold · Brent Crude · 10Y G-Sec Yield · FII Net Flows**
 
-The idea is simple: relationships that usually behave a certain way sometimes stop doing so. CorrShift tries to surface those changes.
+Uses rolling correlations and anomaly detection to surface periods where historically stable relationships begin behaving differently.
 
 **Stack:** Python · FastAPI · Next.js · D3.js
 
@@ -229,87 +215,62 @@ A Flutter Android scheduling app built around a simple idea: your next class sho
 - Live "Up Next" countdown
 - Unified classes and tasks timeline
 - SQLite persistence
-- Kotlin Android bridge
-- Material 3 UI
+- Native Kotlin Android integration
+- Material 3 interface
 
 **Stack:** Flutter · Dart · Kotlin · SQLite · Riverpod · Android
-
-[MIT License](https://github.com/karbburn/ClassWidget/blob/main/LICENSE)
 
 ---
 
 # ✍️ Research & Writing
 
-I write technical notes to understand the mathematics behind the models I use.
+I write technical notes alongside the software.
 
-The current sequence moves from the basic mechanics of derivatives into stochastic processes, stochastic calculus, and the foundations of modern option pricing:
+The current series follows a progression through the foundations of mathematical finance:
 
 **Options → Brownian Motion → Geometric Brownian Motion → Itô Calculus → Black-Scholes → Risk-Neutral Pricing**
 
-### The current notes
+### The series
 
-- **What Exactly Is an Option?**  
-  The mechanics of calls, puts, payoffs, intrinsic value, time value, and why uncertainty matters.
+**What Exactly Is an Option?**  
+The mechanics of calls, puts, payoffs, intrinsic value, and time value.
 
-- **The Language of Fluctuation**  
-  Random walks, Brownian motion, and the foundations of modelling continuous uncertainty.
+**The Language of Fluctuation**  
+Brownian motion and the mathematical language of continuous uncertainty.
 
-- **The Geometry of Fluctuation**  
-  Bachelier vs Geometric Brownian Motion, multiplicative price dynamics, and the volatility correction.
+**The Geometry of Fluctuation**  
+Geometric Brownian Motion and multiplicative asset-price dynamics.
 
-- **The Extra Term**  
-  Quadratic variation and the derivation of Itô's Lemma from Brownian motion.
+**The Extra Term**  
+Quadratic variation and the emergence of Itô's Lemma.
 
-- **The Frontier of Certainty**  
-  Dynamic replication, delta hedging, the Black-Scholes PDE, and the heat-equation transformation.
+**The Frontier of Certainty**  
+Dynamic replication, delta hedging, the Black-Scholes PDE, and its transformation.
 
-- **The Measure of Arbitrage**  
-  Girsanov's theorem, risk-neutral pricing, martingale measures, and market completeness.
+**The Measure of Arbitrage**  
+Girsanov's theorem, risk-neutral pricing, martingale measures, and market completeness.
 
 ### [Read my writings →](https://www.sourabhpradhan.in/writing)
-
-I generally prefer understanding what sits underneath a model before treating the model as a black box.
 
 ---
 
 # 🛠️ Toolbox
 
-### Languages
-`Python` `TypeScript` `Dart` `SQL`
+<div align="center">
 
-### Quant & Data
-`NumPy` `Pandas` `SciPy` `Statsmodels` `Scikit-learn`
+<img src="https://skillicons.dev/icons?i=python,ts,react,nextjs,tailwind,postgres,flutter,dart,kotlin,docker,git,githubactions,vercel&perline=7" />
 
-### Quantitative Finance
-`Black-Scholes` `Monte Carlo` `Stochastic Calculus` `Factor Models` `Fixed Income` `DCF` `Financial Modelling`
+</div>
 
-### Backend
-`FastAPI` `PostgreSQL` `Supabase` `REST APIs`
-
-### Frontend
-`Next.js` `React` `Tailwind CSS` `Recharts` `D3.js`
-
-### Mobile
-`Flutter` `Kotlin` `SQLite` `Android`
-
-### Infrastructure
-`Git` `GitHub Actions` `Docker` `Vercel` `Render`
+<p align="center">
+NumPy · Pandas · SciPy · Statsmodels · Scikit-learn · FastAPI · Supabase · Recharts · D3.js
+</p>
 
 ---
 
-# 🌱 Currently Exploring
+# 🌱 Currently Curious About
 
-**Quantitative finance**  
-Volatility modelling, fixed income, market regimes, and factor behaviour
-
-**Financial systems**  
-Valuation infrastructure, transaction modelling, and research workflows
-
-**Mathematical finance**  
-Stochastic calculus, derivative pricing, arbitrage, and risk-neutral valuation
-
-**AI & software**  
-Agents, automation, and better ways to turn analysis into useful products
+Quantitative finance, volatility modelling, fixed income, market microstructure, financial modelling infrastructure, mathematical finance, and AI systems that are actually useful.
 
 ---
 
